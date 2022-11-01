@@ -1,0 +1,26 @@
+version: '3'
+services:
+    ubuntu16.04: 
+            build: ubuntu16.04
+            tty: true
+            privileged: true
+            user: root
+
+    ubuntu18.04:
+            build: ubuntu18.04
+            tty: true
+            privileged: true
+            user: root
+
+    ubuntu20.04:
+            build: ubuntu20.04
+            tty: true
+            privileged: true
+            user: root
+
+    ubuntu22.04:
+            build: ubuntu22.04
+            tty: true
+            privileged: true
+            user: root
+    
