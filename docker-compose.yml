@@ -5,22 +5,32 @@ services:
             tty: true
             privileged: true
             user: root
+            volumes:
+              - ./pwn:/pwn
 
     ubuntu18.04:
             build: ubuntu18.04
             tty: true
             privileged: true
             user: root
+            volumes:
+              - ./pwn:/pwn
+
 
     ubuntu20.04:
             build: ubuntu20.04
             tty: true
             privileged: true
             user: root
+            volumes:
+              - ./pwn:/pwn
+
 
     ubuntu22.04:
             build: ubuntu22.04
             tty: true
             privileged: true
             user: root
-    
+            volumes:
+              - ./pwn:/pwn
+
