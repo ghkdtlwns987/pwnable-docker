@@ -39,7 +39,7 @@ RUN git clone https://github.com/pwndbg/pwndbg && \
 RUN mkdir .zsh
 RUN git clone https://github.com/sindresorhus/pure .zsh/pure
 RUN git clone https://github.com/zdharma/fast-syntax-highlighting .zsh/fast-syntax-highlighting
-RUN echo "ZSH_THEME=""\\nsource /root/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh\\nfpath+=/root/.zsh/pure\\nautoload -U promptinit; promptinit\\nprompt pure" > .zshrc
+RUN echo "ZSH_THEME=""\\nsource /root/.zsh/fast-syntax-highlighting/F-Sy-H.plugin.zsh\\nfpath+=/root/.zsh/pure\\nautoload -U promptinit; promptinit\\nprompt pure" > .zshrc
 
 RUN mkdir /pwn
 WORKDIR /pwn

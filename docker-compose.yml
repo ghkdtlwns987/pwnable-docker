@@ -25,7 +25,6 @@ services:
             volumes:
               - ./pwn:/pwn
 
-
     ubuntu22.04:
             build: ubuntu22.04
             tty: true
